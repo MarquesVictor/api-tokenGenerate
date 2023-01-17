@@ -1,0 +1,18 @@
+{
+    "name": "victo/aura-router",
+    "autoload": {
+        "psr-4": {
+            "Victo\\AuraRouter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "marques.victor",
+            "email": "victormbsilva736@gmail.com"
+        }
+    ],
+    "require": {
+        "aura/router": "^3.0",
+        "zendframework/zend-diactoros": "^1.3"
+    }
+}
