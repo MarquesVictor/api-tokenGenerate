@@ -8,7 +8,7 @@ $routerContainer = new RouterContainer();
 
 $map = $routerContainer->getMap();
 
-$map->get('/', '/token/{id}', function ($request) {
+$map->post('/', '/token/{id}', function ($request) {
     $id = (int) $request->getAttribute('id');
     $response = new Zend\Diactoros\Response();
     $date = new DateTimeImmutable();
